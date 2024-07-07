@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- AOS SCROLL ANIMATION CSS CDNLINK -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light  fixed-top p-2">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 text-dark" href="#dev">Taha Ahmad</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 align-items-center gap-4">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#work">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#experience">Experience</a>
+          </li>
+          <li>
+            <button type="button" class="btn custom-button" data-bs-toggle="modal"           data-bs-target="#exampleModal">
+              Lets talk
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Lets talk</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Input your project details</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- header section -->
+
+  <header class="container col-xxl-8 px-4 " id="dev">
+    <div class=" image-section row flex-lg-row-reverse align-items-center g-5 py-5" >
+      <div class="col-10 col-sm-8 col-lg-6" data-aos="slide-up">
+        <img src="assets/images/WhatsApp Image 2024-07-01 at 10.37.00_dcf6928b.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class=" info-section col-lg-6" data-aos="slide-right">
+        <div class="info">
+          <h5>Hey im TAHA,</h5>
+          <h1 class="display-5 fw-bold lh-1 mb-3"><span class="colored-heading">Full stack </span>web-developer</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap and enhance your business visibility online.</p>
+        </div>
+        <div class="social-icons">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <button class="custom-button">Lets talk</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- projects section -->
+
+
+  <section class="projects py-5" id="work">
+    <div class=" container d-flex align-items-center justify-content-center flex-column">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col d-flex align-items-center justify-content-center" data-aos="fade-up">
+          <div class="card border-0">
+            <img src="assets/images/muazzim.com_ weather.png" class="card-img-top" alt="..." style="width: 100%; height: auto; margin-top: 200px;">
+            <div class="buttons py-2">
+              <button type="button" class="btn btn-outline-primary btn-sm">App designing</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Case study</button>
+              <button type="button" class="btn btn-outline-success btn-sm">Branding</button>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title">Damai</h4>
+              <h7>Ul Design for app that manage your qadha solat</h7>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center" data-aos="fade-down">
+          <div class="card border-0">
+            <img src="assets/images/muazzim.com_ 2nd.png" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+            <div class="buttons py-2">
+              <button type="button" class="btn btn-outline-primary btn-sm">Web</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">No code</button>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title">BuatBaik.my</h4>
+              <h7>Curated list of charity agencies in Malaysia</h7>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center" data-aos="fade-up">
+          <div class="card border-0">
+            <img src="assets/images/muazzim.com_.png" class="card-img-top" alt="..." style="width: 100%; height: auto; margin-top: 200px;">
+            <div class="buttons py-2">
+              <button type="button" class="btn btn-outline-primary btn-sm">Branding</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Case study</button>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title">Branding of Muazzim</h4>
+              <h7> My personal brand identity</h7>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center" data-aos="fade-down">
+          <div class="card border-0">
+            <img src="assets/images/muazzim.com_hh.png" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+            <div class="buttons py-2">
+              <button type="button" class="btn btn-outline-primary btn-sm">UI/UX designing</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Case study</button>
+            </div>
+            <div class="card-body px-0">
+              <h4 class="card-title">Google Finance Redesign</h4>
+              <h7>Concept of Google Finance portal redesign</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn d-grid gap-2 col-6 mx-auto">See all projects</button>
+    </div>
+  </section>
+
+  <!-- expertise section -->
+
+  <section class="expertise" id="Skills">
+    <div class="container">
+      <div class="expertise-heading">
+        <h3>My expertise</h3>
+      </div>
+      <div class="expertise-detail">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in-down">
+            <div class="card border-0">
+              <img src="assets/images/Designer life-bro.png" class="card-img-top" alt="..."  style="width: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">UI/UX designing</h5>
+                <p class="card-text">Web & App Design</p>
+                <p class="card-text">Prototyping</p>
+                <p class="card-text">User Research</p>
+                <p class="card-text">Design System</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+            <div class="card border-0">
+              <img src="assets/images/Low code development-pana.png" class="card-img-top" alt="..."  style="width: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Development</h5>
+                <p class="card-text">HTML,CSS,js</p>
+                <p class="card-text">Angular</p>
+                <p class="card-text">Bootstrap,Tailwind</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in-down">
+            <div class="card border-0">
+              <img src="assets/images/Social tree-cuate.png" class="card-img-top" alt="..."  style="width: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Branding</h5>
+                <p class="card-text">Brand identity</p>
+                <p class="card-text">Brand styling</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+            <div class="card border-0">
+              <img src="assets/images/Video files-bro.png" class="card-img-top" alt="..." style="width: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Video editing</h5>
+                <p class="card-text">Long form editing</p>
+                <p class="card-text">Reels editing</p>
+                <p class="card-text">Trendy effects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- products section -->
+
+<section class="products py-5" id="experience">
+  <div class="container">
+    <div class="products-heading py-5">
+      <h3>Products</h3>
+    </div>
+    <div class="products-grid">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" data-aos="fade-up">
+          <div class="card border-0">
+            <img src="assets/images/resume.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Resume Design</h5>
+              <p class="card-text">Minimal resume design to land
+                your next job</p>
+            </div>
+            <div class="buttons px-3">
+              <button type="button" class="btn btn-outline-primary btn-sm">$9.00</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Figma</button>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-down">
+          <div class="card border-0">
+            <img src="assets/images/book covers.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recipe Book</h5>
+              <p class="card-text">App template for recipes
+                collection and cooking guides</p>
+            </div>
+            <div class=" recipebook-buttons buttons px-3">
+              <button type="button" class="btn btn-outline-primary btn-sm">$9.00</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Glide</button>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up">
+          <div class="card border-0">
+            <img src="assets/images/video editing products.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Video editing</h5>
+              <p class="card-text">Video editing for your business page</p>
+            </div>
+            <div class="buttons py-0 px-3">
+              <button type="button" class="btn btn-outline-primary btn-sm">$9.00</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm">Fiver</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products-btn py-5">
+      <button type="button" class="btn d-grid gap-2 col-6 mx-auto">See all projects</button>
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+
+
+  <footer id="talk">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Work</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Store</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Blog</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Get in touch with me</h5>
+            <p>Book your appointment just by sending a mail.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Book appointment</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class=" footer-bottom d-flex flex-column flex-sm-row justify-content-between border-top">
+        <p>© 2022 Company, Inc. All rights reserved.</p>
+        <ul class=" social-icons list-unstyled d-flex">
+          <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-facebook"></i></a></li >
+          <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- java script and other mcdn -->
+     
+    <!-- FONTAWESOME ICONS KIT CDN -->
+    <script src="https://kit.fontawesome.com/8716e712d6.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- SCROLL ANIMATION JS LINK -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:100,
+        duration:1000
+      });
+    </script>
+  </footer>
+</body>
+</html>
